@@ -21,13 +21,13 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void onClick(View view) {
-//                Intent intent = new Intent( MainActivity.this, SecondActivity.class);
-//                intent.putExtra("MAIN_ACTIVITY_DATA", 100);
-//                startActivity(intent);
-
-                Intent intent = new Intent(Intent.ACTION_VIEW);
-                intent.setData(Uri.parse("https://www.javatpoint.com/"));
+                Intent intent = new Intent( MainActivity.this, SecondActivity.class);
+                intent.putExtra("MAIN_ACTIVITY_DATA", 100);
                 startActivity(intent);
+
+//                Intent intent = new Intent(Intent.ACTION_VIEW);
+//                intent.setData(Uri.parse("https://www.javatpoint.com/"));
+//                startActivity(intent);
             }
         });
 
